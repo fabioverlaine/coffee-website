@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linking Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
     <link rel="stylesheet" href="style.css"/>
     <title>Coffee - Website</title>
 </head>
@@ -14,6 +16,9 @@
                 <h2 class="logo-text">☕Coffee</h2>
             </a>
             <ul class="nav-menu">
+                <!-- icon X -->
+                <button id="menu-close-button" class="fas fa-times"></button>
+
                 <li class="nav-item">
                     <a href="#" class="nav-link">Home</a>
                 </li>
@@ -33,6 +38,8 @@
                     <a href="#" class="nav-link">Contact</a>
                 </li>
             </ul>
+            <!-- icon hamburguer -->
+            <button id="menu-open-button" class="fas fa-bars"></button>
         </nav>
     </header>
     <main>
@@ -56,5 +63,6 @@
             </div>
         </section>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
